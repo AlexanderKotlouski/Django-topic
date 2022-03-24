@@ -1,0 +1,37 @@
+body {
+    /*background-color: lightskyblue;*/
+}
+.main {
+    /*background-color: darksalmon;*/
+    width: 60%;
+    margin: 0 auto;
+}
+.post {
+    /*background-color: burlywood;*/
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 80px;
+}
+.topic-form input, .topic-form textarea{
+    /*background-color: gold;*/
+    margin: 10px auto;
+    display: block;
+    width: 80%;
+    border-radius: 20px;
+
+}
+.topic-form label {
+    width: 80%;
+    margin: 0 auto;
+    display:block;
+}
+
+.index-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    max-height: 100%;
+}
