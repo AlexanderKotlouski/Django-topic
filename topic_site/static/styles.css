@@ -1,16 +1,20 @@
 body {
-    /*background-color: lightskyblue;*/
+    background-color: lightskyblue;
 }
+
+
 .main {
     /*background-color: darksalmon;*/
     width: 60%;
     margin: 0 auto;
+
 }
 .post {
     /*background-color: burlywood;*/
     text-align: center;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+
 }
 textarea {
     height: 80px;
@@ -20,13 +24,27 @@ textarea {
     margin: 10px auto;
     display: block;
     width: 80%;
-    border-radius: 20px;
+
 
 }
 .topic-form label {
     width: 80%;
     margin: 0 auto;
     display:block;
+
+}
+.navbar-brand{
+    font-width: bold;
+    font-size: 30px;
+}
+
+.navbar-nav{
+    font-size: 20px;
+    transform: scale(1.0);
+}
+
+h5:hover, li:hover{
+    color: #eb5959;
 }
 
 .index-img {

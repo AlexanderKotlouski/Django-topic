@@ -10,7 +10,7 @@
         <li class="list-group-item">Name: {{topic.name}}</li>
         <li class="list-group-item">Description: {{topic.description}}</li>
         <li class="list-group-item">Count posts: {{topic.count_post}}</li>
-        <li class="list-group-item">Data created: {{topic.data}}</li>
+        <li class="list-group-item">Data created: {{topic.date}}</li>
         <li class="list-group-item">
             <a class="btn btn-dark" href="{% url 'topic_post_list' topic_id=topic.id%}" role="button">Posts</a>
             {% if user.is_authenticated %}
@@ -22,5 +22,6 @@
         </li>
       </ul>
     </div>
+
 {% endfor %}
 {% endblock %}
